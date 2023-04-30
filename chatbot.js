@@ -1,5 +1,6 @@
 // Define the chatbot responses
 const chatbotResponses = {
+    // existing responses
     "hi": "Hello there!",
     "hello": "Hi, how can I help you today?",
     "how are you": "I'm doing well, thank you. How about you?",
@@ -9,7 +10,20 @@ const chatbotResponses = {
     "bye": "Goodbye, have a great day!",
     "thank you": "You're welcome!",
     "default": "I'm sorry, I didn't understand that. Can you please try again?",
-  };
+    
+    // additional responses
+    "tell me a joke": "Why don't scientists trust atoms? Because they make up everything!",
+    "what's the weather": "I'm sorry, I can't provide weather updates. You might want to check a weather website.",
+    "what's your name": "I'm a chatbot created for this website. I don't have a personal name.",
+    "how old are you": "As a chatbot, I don't have a physical age. But I'm always learning and updating!",
+    "what time is it": "I'm sorry, I can't provide real-time updates. You might want to check the time on your device.",
+    "tell me a story": "Once upon a time, in a virtual world...",
+    "who are you": "I'm a chatbot designed to answer your questions and provide information.",
+    "what can you do": "I can answer your questions, provide information, and engage in conversation with you.",
+    "what's up": "Just here, ready to assist you!",
+    "i'm bored": "How about reading a book, watching a movie, or learning something new?",
+    "do you have any recommendations": "Sure, what kind of recommendations are you looking for? Books, movies, activities?"
+};
   
   // Get the chat input and output elements
   const chatInput = document.querySelector("#chat-input");

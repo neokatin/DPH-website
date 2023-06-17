@@ -23,4 +23,5 @@ Please note that this website does not provide medical advice, and it is always 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
+

@@ -3,110 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Chatbot lol</title>
+  <title>Department of Public Health</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Circular', Arial, sans-serif;
-      background-color: #181818;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-
-    .container {
-      max-width: 800px;
-      width: 100%;
-      padding: 20px;
-      background-color: #282828;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #FFFFFF;
-      font-weight: 600;
-      font-size: 28px;
-    }
-
-    #chat-output {
-      height: 400px;
-      overflow-y: scroll;
-      padding: 10px;
-      margin-bottom: 20px;
-      background-color: #181818;
-      border-radius: 5px;
-    }
-
-    /* Custom scrollbar styling */
-    #chat-output::-webkit-scrollbar {
-      width: 8px;
-    }
-
-    #chat-output::-webkit-scrollbar-track {
-      background-color: #383838;
-      border-radius: 5px;
-    }
-
-    #chat-output::-webkit-scrollbar-thumb {
-      background-color: #5e5e5e;
-      border-radius: 5px;
-    }
-
-    .chat-message {
-      margin-bottom: 10px;
-      padding: 10px;
-      background-color: #282828;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      color: #FFFFFF;
-    }
-
-    .chat-message.bot {
-      background-color: #282828;
-      margin-left: 40px;
-    }
-
-    .chat-message.user {
-      background-color: #1DB954;
-      margin-right: 40px;
-    }
-
-    #chat-input {
-      width: 100%;
-      padding: 10px;
-      border-radius: 5px;
-      border: none;
-      margin-bottom: 10px;
-      font-size: 16px;
-      color: #FFFFFF;
-      background-color: #404040;
-    }
-
-    #chat-input::placeholder {
-      color: #A0A0A0;
-    }
-
-    #chat-input:focus {
-      outline: none;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    }
+    /* Additional inline styles if needed */
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>AI Chatbot</h1>
-    <div id="chat-output"></div>
-    <input type="text" id="chat-input" placeholder="Type your message here...">
-  </div>
-  <script src="chatbot.js"></script>
+  <header>
+    <h1>Department of Public Health</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        <!-- Your content about the Department of Public Health goes here -->
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+        <!-- Add more services as needed -->
+      </ul>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <article>
+        <h3>News Title</h3>
+        <p>
+          <!-- Your news content goes here -->
+        </p>
+      </article>
+      <!-- Add more articles or news updates as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <!-- Your contact information goes here -->
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Department of Public Health. All rights reserved.</p>
+  </footer>
 </body>
 </html>
+

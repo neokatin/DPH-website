@@ -1,5 +1,4 @@
-// Define the chatbot responses
-const chatbotResponses = {
+//.  purge to stop file from working 
     // existing responses
     "hi": "Hello there!",
     "hello": "Hi, how can I help you today?",
@@ -76,5 +75,5 @@ const chatbotResponses = {
   
     // Scroll the chat output to the bottom
     chatOutput.scrollTop = chatOutput.scrollHeight;
-  }
+  
   
